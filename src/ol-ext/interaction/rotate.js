@@ -67,8 +67,6 @@ ol.inherits(ngeo.RotateEvent, ol.events.Event);
  * @extends {ol.interaction.Pointer}
  * @param {olx.interaction.ModifyOptions} options Options.
  * @fires ngeo.interaction.ModifyCircleEvent
- * @export
- * @api
  */
 ngeo.interaction.Rotate = function(options) {
 

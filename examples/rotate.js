@@ -95,7 +95,9 @@ app.MainController = function() {
       })
     ];
     styles['Point'] = new ol.style.Style({
-      image: new ol.style.Circle(),
+      image: new ol.style.Circle({
+        radius: 5
+      }),
       text: new ol.style.Text({
         text: '\uf01e',
         font: 'normal 18px FontAwesome',
